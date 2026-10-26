@@ -182,5 +182,5 @@ esac
 ProductName=`getprop ro.product.device`
 if [ "$ProductName" == "flame" ]; then
 	sleep 600
-	echo 60 > /proc/sys/vm/watermark_scale_factor
+	echo 100 > /proc/sys/vm/watermark_scale_factor
 fi
