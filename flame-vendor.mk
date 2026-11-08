@@ -825,7 +825,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    android.hardware.bluetooth.audio-impl_prebuilt \
     btaudio_offload_if \
     camera.device@1.0-impl \
     com.qti.sensor.c3f_king_hi556w_front_ii \
@@ -1030,10 +1029,6 @@ PRODUCT_PACKAGES += \
     libadreno_utils \
     libadsp_default_listener \
     libadsprpc \
-    libagm \
-    libagmclient \
-    libagmipcservice \
-    libagmmixer \
     libaidenoiser \
     libaidenoiserv2 \
     libanc_night \
@@ -1043,12 +1038,7 @@ PRODUCT_PACKAGES += \
     libaodoptfeature \
     libapengine \
     libappclassifier \
-    libar-acdb \
-    libar-gpr \
-    libar-gsl \
     libar-pal \
-    libats \
-    libaudio_aidl_conversion_common_ndk_prebuilt \
     libaudio_log_utils \
     libaudioplatformconverter.qti \
     libaudioserviceexampleimpl \
@@ -1056,7 +1046,6 @@ PRODUCT_PACKAGES += \
     libbatching \
     libbitmlengine \
     libbitmlenginev2 \
-    libbluetooth_audio_session_aidl_prebuilt \
     libbluetooth_audio_session_aidl_qti \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
@@ -1184,8 +1173,6 @@ PRODUCT_PACKAGES += \
     liblowi_common \
     liblowi_wifihal \
     liblqe \
-    liblx-ar_util \
-    liblx-osal \
     libmapdata_api \
     libmapperutils \
     libmcs \
@@ -1203,7 +1190,6 @@ PRODUCT_PACKAGES += \
     libmialgo_utils \
     libmialgoengine \
     libmialgoengine2 \
-    libmikaraoke \
     libminkdescriptor \
     libminksocket_vendor \
     libmisight \
